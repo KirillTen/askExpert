@@ -1,0 +1,58 @@
+body {
+  color: $color-text;
+  line-height: $line-height;
+  font-size: $font-size;
+  font-family: $font-main;
+}
+
+.container {
+  max-width: 1230px;
+  padding-inline: 15px;
+  margin: 0 auto;
+}
+
+a {
+  color: $color-white;
+  text-align: center;
+}
+
+p {
+  @include mainText;
+}
+
+h2 {
+  @include title-2;
+}
+
+.title-3 {
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-title);
+  font-family: var(--font-title-2);
+  font-size: var(--font-size-title-3);
+}
+
+h4 {
+  @include title-4;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.bg--text {
+  background-color: $color-hover;
+  text-align: center;
+  text-transform: uppercase;
+  color: $color-title-2;
+  border-radius: 20px;
+  letter-spacing: 2px;
+}

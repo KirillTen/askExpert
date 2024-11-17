@@ -1,0 +1,27 @@
+@mixin mainText() {
+  color: $color-text;
+  line-height: $line-height;
+  font-family: $font-main;
+}
+
+@mixin title-2() {
+  color: $color-title-2;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-title;
+  font-family: $font-title-2;
+  font-size: $font-size-title-2;
+}
+
+@mixin title-3 {
+  font-weight: $font-weight-semibold;
+  line-height: $line-height-title;
+  font-family: $font-title-2;
+  font-size: $font-size-title-3;
+}
+@mixin title-4() {
+  color: $color-title-2;
+  font-weight: $font-weight-semibold;
+  line-height: $line-height-title;
+  font-family: $font-title-2;
+  font-size: $font-size-title-4;
+}
