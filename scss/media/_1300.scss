@@ -1,0 +1,73 @@
+@media (max-width: 1300px) {
+  body {
+    h2 {
+      font-size: 36px;
+    }
+  }
+
+  .about {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .service {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .join {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .help {
+    padding-left: 110px;
+    background-position: center;
+  }
+
+  .join__grid {
+    gap: 40px;
+  }
+
+  .gallery {
+    position: relative;
+    background-color: #181818;
+    max-height: 646px;
+    padding-inline: 276px;
+    padding-top: 1px;
+  }
+
+  .gallery__more {
+    top: 140px;
+  }
+
+  .gallery__info--text {
+    padding-bottom: 147px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 130px;
+    margin-inline: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 54px;
+  }
+
+  .book {
+    margin-bottom: 100px;
+  }
+
+  .blog {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+
+  .contactsForm {
+    padding-top: 100px;
+    padding-bottom: 95px;
+  }
+
+  .footer {
+    padding-top: 100px;
+    max-height: 489px;
+  }
+}

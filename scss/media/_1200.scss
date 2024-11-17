@@ -1,0 +1,68 @@
+@media (max-width: 1200px) {
+  .header__contacts a {
+    padding: 5px 20px 5px 51px;
+  }
+
+  .help {
+    height: 800px;
+    top: -134px;
+    background-position: center;
+  }
+
+  .sponsors {
+    position: relative;
+    top: 0;
+    max-width: 1920px;
+  }
+
+  .about__image {
+    max-width: 625px;
+  }
+
+  .gallery__more {
+    top: 156px;
+    padding: 5px 15px;
+  }
+
+  .gallery {
+    padding-inline: 200px;
+  }
+
+  .feedback {
+    margin-top: 1010px;
+  }
+
+  .book__link {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+
+  .blog__more {
+    padding: 5px 15px;
+  }
+
+  .blog__author a {
+    padding: 5px 15px;
+  }
+
+  input {
+    padding: 19px 28px;
+    width: 290px;
+  }
+
+  textarea {
+    width: 600px;
+    padding: 20px 30px 100px 30px;
+  }
+
+  .footer__product .footer__link-book {
+    margin-top: 10px;
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 35px;
+  }
+
+  .footer__line {
+    margin-inline: 100px;
+  }
+}

@@ -1,0 +1,370 @@
+@media (max-width: 768px) {
+  /* BURGER MENU */
+
+  .header__burger-menu {
+    order: -2;
+  }
+  .menu {
+  }
+  .menu-icon {
+    display: block;
+    width: 38px;
+    height: 18px;
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+    span {
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      top: calc(50% - 1px);
+      width: 100%;
+      height: 2px;
+      background-color: #fff;
+      transition: transform 0.3s ease-in-out;
+      &:first-child {
+        top: 0;
+      }
+      &:last-child {
+        top: auto;
+        bottom: 0;
+      }
+    }
+    &.active {
+      span {
+        transform: scale(0);
+        &:first-child {
+          top: calc(50% - 1px);
+          transform: rotate(45deg);
+        }
+        &:last-child {
+          bottom: calc(50% - 1px);
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+
+  .header__nav {
+    overflow: auto;
+    position: absolute;
+    top: 95px;
+    left: -100%;
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    background-color: #fff;
+    opacity: 0.9;
+    display: flex;
+    transition: 0.2s ease-in-out;
+    &.active {
+      left: 0;
+    }
+
+    ul {
+      background-color: #fff;
+      flex-direction: column;
+      margin: auto;
+      padding: 20px;
+      gap: 3px;
+
+      a {
+        background-color: var(--color-hover);
+        text-align: center;
+        max-width: 200px;
+        border-radius: 10px;
+        padding: 5px 220px;
+        border: 1px solid black;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        line-height: 70px;
+        color: black;
+        :hover {
+          color: var(--color-white);
+        }
+      }
+    }
+  }
+  .header__logo {
+    order: -1;
+  }
+
+  .header__contacts {
+    order: 0;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+
+    a {
+      position: relative;
+      color: #353535;
+      padding: 5px 20px 5px 40px;
+      -webkit-transition: color 0.4s ease;
+      transition: color 0.4s ease;
+      line-height: 1.6;
+      &::before {
+        position: absolute;
+        content: "";
+        background-image: url(/img/icon/tel.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 0;
+        left: 0px;
+        width: 35px;
+        height: 35px;
+      }
+    }
+  }
+  /* BURGER MENU END */
+
+  .bg--text {
+    padding-inline: 5px;
+}
+  .help__inner p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+  .help__link--services a {
+    border-radius: 30px;
+    padding: 3px 10px;
+  }
+
+  .help {
+    max-height: 550px;
+    top: -88px;
+    padding-left: 40px;
+    padding-top: 280px;
+  }
+
+  .help__link--book a {
+    padding: 3px 10px;
+    border-radius: 30px;
+    width: 140%;
+    max-height: 30px;
+    &::before {
+      top: 3px;
+      left: 10px;
+      width: 22px;
+      height: 22px;
+    }
+  }
+
+  .help__wrapper {
+    margin-top: 7px;
+  }
+
+  .sponsors__inner {
+    margin: 0px 5px;
+    padding: 3px 0;
+    gap: 5px 20px;
+
+    img {
+      max-width: 25%;
+    }
+  }
+  .about {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .about__grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 1px;
+  }
+
+  .about__about-us {
+    align-items: center;
+    text-align: center;
+  }
+
+  .about__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    background-size: cover;
+  }
+  .about__info {
+    flex-direction: row;
+  }
+
+  .service {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .service__title {
+    margin-bottom: 20px;
+    margin-inline: 50px;
+  }
+
+  .join {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .join__grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .gallery {
+    max-height: 620px;
+  }
+  .gallery__inner {
+    margin-bottom: 20px;
+  }
+
+  .gallery__bg-text {
+    margin-bottom: 15px;
+  }
+
+  .gallery__info--text {
+    padding-bottom: 20px;
+    gap: 10px 20px;
+    margin-inline: 10px;
+    margin-top: 15px;
+
+  }
+
+  .gallery__grid-text {
+    p{
+
+      color:#fff;
+    }
+    span{
+
+      color:#fff;
+    }
+}
+
+  .gallery__grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+    padding: 5px;
+  }
+
+  .gallery__grid-text {
+    p {
+      font-size: 36px;
+      margin-bottom: 3px;
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+
+  .feedback {
+    display: none;
+    margin-top: 480px;
+  }
+
+  .text11 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .slider {
+    height: 560px;
+    margin-bottom: 0px;
+    max-width: 100%;
+    margin-inline: 1px;
+  }
+  .slider .prev {
+    left: 20%;
+    top: 41%;
+  }
+  .slider .next {
+    right: 20%;
+    top: 41%;
+  }
+
+      .book {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+  .book__grid-container {
+    padding-inline: 10px;
+    gap: 25px;
+    grid-template-columns: 1fr;
+  }
+
+  .book__inner {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .book__img {
+    order: -1;
+  }
+
+  .blog {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+
+  .blog__flex-wrapper > p {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .blog__author-box {
+    img {
+      margin-right: 3px;
+      width: 10%;
+    }
+  }
+
+  .contactsForm {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .contacts__title {
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    padding-top: 40px;
+  }
+
+  .footer__logo a {
+    font-size: 24px;
+  }
+
+  .footer__product {
+    p {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+    ul {
+      font-size: 14px;
+    }
+    .footer__link-book {
+      margin-top: 10px;
+      padding: 5px 12px;
+      font-size: 14px;
+      border-radius: 10px;
+    }
+  }
+  .footer__line {
+    margin-inline: 25px;
+  }
+
+  .footer__privacy {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+}

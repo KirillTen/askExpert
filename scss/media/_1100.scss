@@ -1,0 +1,143 @@
+@media (max-width: 1100px) {
+  .header__nav ul {
+    padding-left: 30px;
+    width: 500px;
+    font-size: 16px;
+  }
+
+  .header__contacts a {
+    padding: 1px 7px 1px 39px;
+    &::before {
+      top: 0px;
+      left: 0px;
+      width: 31px;
+      height: 31px;
+    }
+  }
+
+  .help {
+    max-height: 750px;
+    top: -116px;
+    padding-left: 68px;
+    background-position: center;
+  }
+
+  .help__inner h1 {
+    font-size: 40px;
+  }
+
+  .help__inner p {
+    margin-top: 12px;
+  }
+
+  .help__inner {
+    max-width: 450px;
+    max-height: 341px;
+    padding: 10px 23px;
+    border-radius: 18px;
+  }
+
+  .about__image {
+    width: auto;
+    margin-right: 10px;
+  }
+
+  .service__grid {
+    gap: 10px;
+  }
+
+  .about__about-us .about__text-bold {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+
+  .about__about-us > p {
+    margin-bottom: 5px;
+  }
+
+  .about__about-us .about__bg--text {
+    margin-bottom: 10px;
+  }
+
+  .about__about-us h2 {
+    margin-bottom: 10px;
+  }
+
+  .about__info-text span {
+    font-size: 24px;
+    margin-bottom: 0px;
+  }
+
+  .about__span-line--vertical {
+    margin-inline: 5px;
+  }
+
+  .about__info {
+    padding: 12px 0;
+  }
+
+  .point--one h4::before {
+    width: 35px;
+    height: 35px;
+  }
+  .point--two h4::before {
+    width: 35px;
+    height: 35px;
+  }
+  .point--three h4::before {
+    width: 35px;
+    height: 35px;
+  }
+
+  
+
+  .feedback {
+    margin-top: 880px;
+  }
+
+  .blog__author a {
+    padding: 2px 5px;
+  }
+
+  .contacts__grid-container {
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  input {
+    padding: 16px 24px;
+    width: 270px;
+  }
+
+  .contacts__form form {
+    gap: 20px 20px;
+  }
+
+  .slider {
+    height: 630px;
+    margin-bottom: 0px;
+  }
+
+  .text11 {
+    font-size: 36px;
+    margin-bottom: 33px;
+  }
+
+  .blog__author-box > span {
+    margin-right: 10px;
+  }
+
+  .blog__author-box > p {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 560px;
+    padding: 25px 22px 141px 22px;
+  }
+
+  button {
+    border-radius: 50px;
+    padding: 15px 25px;
+  }
+}

@@ -1,0 +1,155 @@
+@media (max-width: 640px) {
+  body {
+    h2 {
+      font-size: 20px;
+    }
+  }
+  .header__info .container {
+    padding: 5px 5px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-height: 64px;
+    gap: 5px 0;
+  }
+
+  .header__social ul {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .help {
+    max-height: 400px;
+    top: -90px;
+    padding-inline: 50px;
+    padding-top: 240px;
+  }
+
+  .sponsors__inner {
+    margin: 0px 1px;
+    padding: 3px 0;
+    gap: 5px 10px;
+    justify-content: space-evenly;
+    img {
+      max-width: 20%;
+    }
+  }
+
+  .service__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .join__inner-text {
+    margin-bottom: 20px;
+  }
+
+  .join__setup-point h4 {
+    margin-top: 15px;
+  }
+
+  .join__setup-point p {
+    margin-bottom: 20px;
+  }
+
+  .gallery__info--text {
+    padding-bottom: 0px;
+    gap: 5px 1px;
+    margin-inline: 10px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+  }
+
+  .gallery {
+    padding-inline: 15px;
+  }
+
+  .feedback {
+    margin-top: 390px;
+  }
+
+  .feedback__text {
+    margin-bottom: 12px;
+  }
+
+  .gallery__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .text11 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .gallery__more {
+    position: relative;
+    top: 10px;
+    right: 0;
+    max-width: 120px;
+    color: #181818;
+    a {
+      font-size: 16px;
+    }
+  }
+  .slider .prev {
+    left: 62px;
+    bottom: 300px;
+    max-width: 15%;
+  }
+  .slider .next {
+    left: 390px;
+    bottom: 300px;
+    max-width: 15%;
+  }
+
+  .slider {
+    height: 530px;
+  }
+
+  .slider {
+    margin-bottom: -60px;
+  }
+
+  .blog__more a {
+    font-size: 16px;
+  }
+
+  textarea {
+    width: 450px;
+    padding: 25px 22px 141px 22px;
+  }
+
+  .blog__flex-wrapper > p {
+    font-size: 18px;
+  }
+
+  .blog__title {
+    max-width: 220px;
+  }
+
+  .footer {
+    padding-top: 10px;
+  }
+
+  .footer__logo {
+    margin-bottom: 10px;
+    gap: 10px;
+   
+}
+
+  .footer__flex-container {
+    margin-bottom: 10px;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-inline: 10px;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .footer__line {
+    display: none;
+  }
+}

@@ -1,0 +1,22 @@
+@media (max-width: 1500px) {
+  .gallery__title {
+    max-width: 500px;
+  }
+
+  .gallery__more {
+    top: 174px;
+  }
+  .gallery__info--text {
+    margin-inline: 30px;
+  }
+
+  .gallery__grid-container {
+    gap: 10px;
+    padding: 10px;
+    border-radius: 14px;
+  }
+
+  .feedback {
+    margin-top: 624px;
+}
+}

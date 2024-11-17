@@ -1,0 +1,44 @@
+@media (max-width: 1400px) {
+  .help__inner {
+    z-index: 1000;
+    max-width: 500px;
+    max-height: 341px;
+    padding: 23px 29px;
+    border-radius: 20px;
+  }
+  .help__wrapper {
+    margin-top: 22px;
+  }
+
+  .help {
+    background-position: center;
+  }
+
+  .sponsors__inner {
+    margin: 0px 20px;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 121px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gallery__info--text {
+    margin-inline: 5px;
+  }
+
+  .gallery__title {
+    max-width: 395px;
+  }
+
+  .gallery__grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+  }
+
+  .feedback {
+    margin-top: 950px;
+  }
+}
