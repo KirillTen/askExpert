@@ -1,0 +1,112 @@
+.contactsForm {
+  padding-top: 151px;
+  padding-bottom: 99px;
+}
+
+.contacts__grid-container {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  gap: 91px;
+}
+.contacts__inner {
+  display: flex;
+  flex-direction: column;
+}
+.contacts__title {
+  margin-bottom: 38px;
+  h2 {
+    margin-bottom: 13px;
+  }
+  span {
+    display: inline-block;
+    max-width: 404px;
+  }
+}
+.contacts__bg--text {
+  margin-bottom: 6px;
+  max-width: 127px;
+}
+.contacts__info {
+  display: flex;
+  flex-direction: column;
+  max-width: 342px;
+  gap: 56px 0;
+}
+.contacts__info-inner {
+  display: flex;
+  gap: 0 16px;
+}
+.contacts__text {
+  p {
+    font-size: 20px;
+    font-family: var(--font--title-2);
+    color: var(--color-title);
+    font-weight: var(--font-weight-semibold);
+  }
+  a {
+    display: block;
+    font-size: 20px;
+    font-family: var(--font--title-2);
+    color: var(--color-title);
+    font-weight: var(--font-weight-semibold);
+    transition: opacite 0.4s ease-in;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.contacts__form {
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px 24px;
+  }
+}
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--color-title);
+}
+input {
+  border: 1px solid #c1c1c1;
+  border-radius: 54px;
+  padding: 22px 33px;
+  width: 318px;
+  transition: border 0.3s ease-in, background-color 0.3s ease-in;
+  &:hover,
+  &:focus {
+    background-color: var(--color-hover);
+    border: 1px solid var(--color-title);
+  }
+}
+
+textarea {
+  display: flex;
+  resize: none;
+  width: 665px;
+  border: 1px solid #c1c1c1;
+  border-radius: 22px;
+  padding: 22px 33px 111px 33px;
+  transition: border 0.3s ease-in, background-color 0.3s ease-in;
+
+  &:hover,
+  &:focus {
+    background-color: var(--color-hover);
+    border: 1px solid var(--color-title);
+  }
+}
+
+button {
+  border: 1px solid #c1c1c1;
+  border-radius: 54px;
+  padding: 22px 33px;
+  max-width: 168px;
+  transition: color 0.3s ease-in, background-color 0.3s ease-in;
+  &:hover,
+  &:focus {
+    background-color: var(--color-title);
+    color: var(--color-white);
+  }
+}

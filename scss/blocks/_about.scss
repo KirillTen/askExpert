@@ -1,0 +1,122 @@
+.about {
+  margin-top: 127px;
+  margin-bottom: 174px;
+}
+
+.about__grid-container {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  column-gap: 65px;
+}
+.about__about-us {
+  display: flex;
+  flex-direction: column;
+  .about__bg--text {
+    margin-bottom: 22px;
+    border-radius: 22px;
+    background-color: $color-hover;
+    text-align: center;
+    max-width: 120px;
+    text-transform: uppercase;
+    color: $color-title-2;
+  }
+  h2 {
+    margin-bottom: 18px;
+  }
+  .about__text-bold {
+    margin-bottom: 11px;
+    font-weight: $font-weight-bold;
+    font-size: 18px;
+  }
+  > p {
+    margin-bottom: 55px;
+  }
+}
+.about__info {
+  display: inline-flex;
+  padding: 18px 0;
+}
+.about__info-text {
+  max-width: 170px;
+  max-height: 94px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 10px;
+  align-items: center;
+  padding: 16px 20px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  span {
+    font-weight: $font-weight-bold;
+    font-size: 30px;
+    color: $color-title-2;
+    margin-bottom: 3px;
+  }
+  p {
+    font-weight: $font-weight-bold;
+    color: $color-title-2;
+  }
+}
+
+.about__span-line--horizontal {
+  display: inline-block;
+  width: 380px;
+  height: 1px;
+  background-color: #d8d8d8;
+}
+
+.about__span-line--vertical {
+  margin-inline: 20px;
+  display: inline-block;
+  width: 1px;
+  height: 90px;
+  background-color: #d8d8d8;
+}
+
+.about__image {
+  position: relative;
+  max-width: 715px;
+  background-image: url(/img/about-img.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about__box {
+    display: inline-flex;
+    align-items: center;
+    color:$color-title-2;
+  max-width: 241px;
+  position: absolute;
+  border-radius: 20px;
+  box-shadow: -5px 22px 26px 0 rgba(95, 95, 95, 0.25);
+  background: #fff;
+  bottom: 9%;
+  left: 6%;
+  span{
+    padding-right: 28px;
+    font-weight: $font-weight-bold;
+  }
+  
+}
+
+.about__count{
+    position: relative;
+    display: inline-block;
+    font-weight: $font-weight-bold;
+    font-size: 26px;
+    font-family: $font-title-2;
+    padding: 53px 0;
+    padding-inline: 49px 33px;
+    &::before{
+        position: absolute;
+        content: '';
+        background-image: url(/img/icon/green-circle.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 94px;
+        height: 94px;
+        top: 18%;
+        left: 17%;
+    
+    }
+}

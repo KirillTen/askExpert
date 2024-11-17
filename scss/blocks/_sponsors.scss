@@ -1,0 +1,17 @@
+.sponsors {
+  
+  position: absolute;
+  top: 1000px;
+  left: 0;
+  right: 0;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.sponsors__inner {
+  margin: 0 auto;
+  padding: 21px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  opacity: 0.51;
+}

@@ -1,0 +1,131 @@
+.footer {
+  padding-top: 126px;
+  background-image: url(/img/footer-bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 489px;
+  /* backdrop-filter: blur(3px);
+    background-color: rgba(24, 24, 24, 0.2); */
+}
+
+.footer__flex-container {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-bottom: 62px;
+}
+
+.footer__logo {
+  margin-bottom: 31px;
+  position: relative;
+  z-index: 5;
+  font-family: $font-title-2;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  transition: border 0.3s ease-in;
+  &:hover {
+    border: 1px solid $color-hover;
+  }
+  a {
+    font-size: 30px;
+  }
+}
+
+.footer__social {
+  ul {
+    list-style-type: none;
+    display: inline-flex;
+    gap: 25px;
+    a {
+      transition: transform 0.4s ease;
+      :hover {
+        transform: scale(1.5);
+      }
+    }
+  }
+}
+
+.footer__line {
+  margin-inline: 171px;
+  span {
+    display: inline-block;
+    background-color: #707070;
+    width: 1px;
+    height: 237px;
+  }
+}
+
+.footer__wrapper {
+  display: flex;
+  gap: 99px;
+}
+
+.footer__product {
+  &:last-child {
+    max-width: 232px;
+  }
+  &-title {
+    margin-bottom: 11px;
+    color: var(--color-white);
+    font-size: 20px;
+    font-weight: var(--font-weight-semibold);
+    font-family: var(--font-title-2);
+  }
+
+  p {
+    color: var(--color-white);
+    margin-bottom: 11px;
+  }
+
+  span {
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 32px;
+    height: 3px;
+    background-color: var(--color-hover);
+  }
+
+  .footer__list {
+    li::marker {
+      color: #fff;
+    }
+    a{
+        transition: color .3s ease-in;
+        &:hover{
+            color:var(--color-hover);
+        }
+    }
+  }
+
+  .footer__link-book {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 15px 23px;
+    color: var(--color-title);
+    font-size: 18px;
+    background-color: var(--color-white);
+    border-radius: 42px;
+    font-weight: var(--font-weight-semibold);
+    transition: background-color 0.3s ease-in, color 0.3s ease-in,
+      border 0.3s ease-in;
+    &:hover {
+      background-color: var(--color-title);
+      color: var(--color-white);
+      border: 1px solid var(--color-white);
+    }
+  }
+}
+
+.footer__privacy {
+  padding-top: 20px;
+  padding-bottom: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #707070;
+  p {
+    color: var(--color-white);
+  }
+}

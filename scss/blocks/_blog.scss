@@ -1,0 +1,118 @@
+.blog{
+    background-color: $bg-color-grey;
+    padding-bottom: 178px;
+    padding-top: 178px;
+}
+
+.blog__inner {
+  margin-bottom: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 46px;
+}
+.blog__title {
+  max-width: 732px;
+  h2 {
+    color:var(--color-title);
+  }
+}
+
+.blog__bg-text {
+  color: $color-white;
+  background-color: #4eaf4e;
+  max-width: 74px;
+  margin-bottom: 6px;
+  
+}
+.blog__more {
+  background-color: $color-hover;
+  border-radius: 42px;
+  font-weight: var(--font-weight-semibold);
+  max-width: 168px;
+  max-height: 61px;
+  padding: 16px 30px;
+  transition: opacity 0.4s ease-in;
+  &:hover {
+    opacity: 0.9;
+  }
+
+  a {
+    color: $color-title-2;
+    display: inline-block;
+    font-weight: $font-weight-semibold;
+    font-size: 18px;
+    transition: color 0.4s ease-in;
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.blog__grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 36px;
+}
+.blog__flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    > img{
+        margin-bottom: 28px;
+    }
+    > p {
+        margin-bottom: 12px;
+        font-family: var(--font--title-2);
+        font-weight: var(--font-weight-semibold);
+        font-size: 30px;
+        color:var(--color-title);
+        line-height: var(--line-height-title);
+    }
+    > span{
+        max-width: 546px;
+        margin-bottom: 10px;
+    }
+}
+.blog__author {
+    padding: 14px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+
+    &-box{
+        display: flex;
+        align-items: center;
+ > img{
+        margin-right: 8px;
+    }
+    > p {
+        margin-right: 22px;
+    }
+
+    > span {
+        margin-right: 22px;
+        display: inline-block;
+        width: 1px;
+        height: 14px;
+        background-color:#595566;
+    }
+
+    }
+   
+
+    a{
+        padding: 16px 39px;
+        background-color: #fff;
+        border-radius: 42px;
+        color:var(--color-title);
+        font-size: 18px;
+        font-weight: var(--font-weight-semibold);
+        transition: background-color .5s ease, color .9s ease-in,;
+        &:hover{
+            background-color: var(--color-title);
+            color: var(--color-white);
+        }
+    }
+}
